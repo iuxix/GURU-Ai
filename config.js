@@ -6,7 +6,7 @@ import fs from 'fs'
 import dotenv from 'dotenv'
 dotenv.config()
 
-const ownervb = process.env.OWNERS || "917605902011;GURU;6281255369012;Ash"
+const ownervb = process.env.OWNERS || "919707851780;GURU;6281255369012;Ash"
 
 
 const ownerlist = ownervb.split(';');
@@ -21,7 +21,7 @@ for (let i = 0; i < ownerlist.length; i += 2) {
     global.owner.push(owner);
 }
 
-//global.pairingNumber = "" //put your bot number here
+//global.pairingNumber = "919707851780" //put your bot number here
 
 global.mods = ['917605902011', '32460248586']
 global.prems = ['917605902011', '32460248586', '919398758484']
@@ -69,8 +69,8 @@ global.APIKeys = {
 }
 
 // Sticker WM
-global.botname = process.env.BOTNAME
-global.premium = 'true'
+global.botname = process.env.Deba Bot
+global.premium = 'false'
 global.packname = 'GURU┃ᴮᴼᵀ'
 global.author = 'ᴳᵘʳᵘ ˢᵉⁿˢᵉⁱ'
 global.menuvid = 'https://i.imgur.com/AjDzGgG.mp4'
